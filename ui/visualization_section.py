@@ -13,7 +13,7 @@ def render_visualizations(shap_df, shap_values, expected_value, feature_columns,
         x="SHAP_Value",
         y="Feature",
         orientation="h",
-        color="SHAP_Value",
+        color="SHAP_Value",   #+ve values in green, -ve in red
         color_continuous_scale=["#1f9d55", "#f7fafc", "#e53e3e"],
         title="Feature Contribution to Risk",
     )

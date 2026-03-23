@@ -47,7 +47,7 @@ if predict_clicked:
 
     render_visualizations(shap_df, shap_values, expected_value, feature_columns, input_df, input_values)
 
-    recommendations = personalized_recommendations(input_values, category, shap_df)
+    recommendations = personalized_recommendations(input_values, shap_df)
 
     render_recommendations(recommendations)
 

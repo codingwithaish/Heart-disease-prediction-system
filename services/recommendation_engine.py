@@ -1,4 +1,4 @@
-def personalized_recommendations(user_input, category, shap_df):
+def personalized_recommendations(user_input, shap_df):
     recommendation_map = {
         "Smoking": "Smoking is a key contributor. Reduce and quit smoking with a step-by-step quit plan.",
         "High_BP": "High blood pressure is contributing to risk. Check BP regularly and follow a low-salt diet.",
